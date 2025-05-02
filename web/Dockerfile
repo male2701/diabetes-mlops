@@ -11,6 +11,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY web/app.py app.py
 
 # Exponer puerto y comando de inicio
-EXPOSE 8001
+EXPOSE 8083
 
-CMD ["streamlit", "run", "app.py", "--server.port=8001", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8083", "--server.address=0.0.0.0"]
