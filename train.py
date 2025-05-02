@@ -27,8 +27,8 @@ def train_model():
     # Crear carpeta de modelo si no existe
     os.makedirs('model', exist_ok=True)
     # Guardar modelo entrenado
-    joblib.dump(model, 'model/model.pkl')
-    print('Modelo guardado en model/model.pkl')
+    joblib.dump(model, 'api/model.pkl')
+    print('Modelo guardado en api/model.pkl')
 
 
 if __name__ == '__main__':
