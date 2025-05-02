@@ -1,7 +1,8 @@
 # Proyecto MLOps para Predicción de Diabetes
 
+Estudiantes: Fabián Montero - Malena Velásquez
+
 Este proyecto implementa un pipeline completo de MLOps para la predicción de diabetes...
-...
 
 ## Ejecutando el proyecto
 
